@@ -1,0 +1,21 @@
+2-node js :Node.js est un environnement d'exécution JavaScript côté serveur. cest comme jvm
+ ➤ En d'autres termes :
+    Il te permet d'exécuter du JavaScript en dehors d’un navigateur web.
+    Basé sur le moteur V8 de Google Chrome.
+    Très utilisé pour créer des applications web backend (serveurs, APIs, etc.).
+3-yarn  est un gestionnaire de paquets JavaScript, comme npm (Node Package Manager). cest comme maven
+ ➤ À quoi il sert :
+  Installer, mettre à jour et gérer les dépendances (librairies) de ton projet Node.js.
+  Alternative à npm, souvent plus rapide et plus fiable.
+4-pip install "plone.restapi[recommended]" Zope Pillow
+ pour rôle principal d’installer les paquets nécessaires  backend, avec ses dépendances essentielles.
+  Ce que ça installe précisément :
+    a-plone.restapi[recommended] : le package officiel pour interagir avec Plone via une API REST, avec les dépendances recommandées.
+    b-Zope : le framework web sur lequel Plone est basé.
+    c-Pillow : pour la gestion d’images (utile dans Plone pour manipuler des images).
+5-pip install cookiecutter
+  Installe Cookiecutter, un outil Python très utilisé pour générer des projets à partir de modèles (templates).
+6-cookiecutter gh:plone/cookiecutter-zope-instance
+  cookiecutter gh:plone/cookiecutter-zope-instance : utilise ce modèle pour créer un squelette de projet backend Plone/Zope avec les fichiers de configuration (comme buildout.cfg), mais il ne télécharge pas encore les dépendances.
+zeo permette de communiquer entre different projet  zope de partager de stockage de base de donne
+offre des service de seucrite
